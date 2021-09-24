@@ -238,7 +238,7 @@ app.use(passport.session());
 app.set('view engine','ejs');
 
 app.get('/success',function(req,res){
-    res.sendFile(__dirname + "/views/payment.html")
+    res.redirect(__dirname + "/views/payment.html")
 });
 
 app.get('/error',function(req,res){
