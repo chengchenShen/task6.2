@@ -255,8 +255,8 @@ passport.deserializeUser(function(obj,a){
 
 // google login authentication
 
-const GOOGLE_CLIENT_ID = '365771967080-2rsi133pb6896po603d9hqp4mb73ikc3.apps.googleusercontent.com';
-const GOOGLE_CLIENT_SECRET = '1VcNM0DFTnqSd0zF3077G81q';
+const GOOGLE_CLIENT_ID = '365771967080-mkj79hjcu4h1hv1och9696jcp8kc98he.apps.googleusercontent.com';
+const GOOGLE_CLIENT_SECRET = 'JCV9mefiiF0mtUMJI7H0hLFk';
 
 passport.use(new GoogleStrategy({
     clientID: GOOGLE_CLIENT_ID,
