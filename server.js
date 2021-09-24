@@ -238,7 +238,7 @@ app.use(passport.session());
 app.set('view engine','ejs');
 
 app.get('/success',function(req,res){
-    res.redirect(__dirname + "/views/payment.html")
+    res.redirect("https://evening-retreat-13853.herokuapp.com/payment.html")
 });
 
 app.get('/error',function(req,res){
